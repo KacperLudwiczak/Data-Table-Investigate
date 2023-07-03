@@ -1,3 +1,5 @@
+import AGGridTable from "./AGGridTable";
+
 function AGGrid() {
   return (
     <div className="app">
@@ -59,6 +61,7 @@ function AGGrid() {
           </ul>
         </li>
       </ul>
+      <AGGridTable/>
     </div>
   );
 }
