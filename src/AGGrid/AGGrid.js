@@ -4,7 +4,7 @@ function AGGrid() {
   return (
     <div className="app">
       <h1>AG Grid</h1>
-      <a href="https://www.ag-grid.com/" target="_blank">
+      <a href="https://www.ag-grid.com/" target="_blank" rel="noreferrer">
         AG Grid Page
       </a>
       <ul>

@@ -1,4 +1,5 @@
 import Search from "./SearchFilter";
+import SearchWithCheckbox from "./Checkbox";
 
 export default function MRTRequirements() {
   return (
@@ -9,6 +10,7 @@ export default function MRTRequirements() {
       <a
         href="https://www.material-react-table.com/docs/guides/global-filtering#global-filtering-(search)-feature-guide"
         target="_blank"
+        rel="noreferrer"
       >
         Search Page
       </a>
@@ -80,6 +82,22 @@ export default function MRTRequirements() {
         </li>
       </ul>
       <Search />
+
+      <h3>Checkbox</h3>
+      <a
+        href="https://www.material-react-table.com/docs/guides/row-selection#customize-select-checkboxes-or-radio-buttons"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Checkbox Page
+      </a>
+      <ul>
+        <li>
+          To activate checkbox selection set "muiSelectCheckboxProps" and
+          "enableRowSelection".
+        </li>
+      </ul>
+      <SearchWithCheckbox />
     </>
   );
 }

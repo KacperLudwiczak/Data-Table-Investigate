@@ -44,6 +44,26 @@ export default function ReviewRequirements() {
         </li>
       </ul>
 
+      <h2>Checkbox:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>To activate checkbox selection set "checkboxSelection".</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>
+          To activate checkbox selection set "muiSelectCheckboxProps" and
+          "enableRowSelection".
+        </li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>
+          To activate checkbox selection set " checkboxSelection" and
+          "headerCheckboxSelection"
+        </li>
+      </ul>
+
       <MUIDataGridRequirements />
       <MRTRequirements />
       <AGGridRequirements />

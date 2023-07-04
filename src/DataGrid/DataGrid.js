@@ -5,7 +5,11 @@ function DataGrid() {
   return (
     <div className="app">
       <h1>MUI Data Grid</h1>
-      <a href="https://mui.com/x/react-data-grid/" target="_blank">
+      <a
+        href="https://mui.com/x/react-data-grid/"
+        target="_blank"
+        rel="noreferrer"
+      >
         Data Grid Page
       </a>
       <ul>

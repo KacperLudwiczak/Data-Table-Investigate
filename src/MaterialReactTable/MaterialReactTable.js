@@ -6,7 +6,11 @@ export default function MaterialReactTable() {
   return (
     <>
       <h1>Material React Table</h1>
-      <a href="https://www.material-react-table.com/" target="_blank">
+      <a
+        href="https://www.material-react-table.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
         Material React Table Page
       </a>
       <ul>

@@ -1,4 +1,6 @@
 import Search from "./SearchFilter";
+import AGGrid from "./AGGridTable";
+import AGGridCheckbox from "./Checkbox";
 
 export default function AGGridRequirements() {
   return (
@@ -9,6 +11,7 @@ export default function AGGridRequirements() {
       <a
         href="https://www.ag-grid.com/react-data-grid/filter-quick/"
         target="_blank"
+        rel="noreferrer"
       >
         Search Page
       </a>
@@ -62,8 +65,25 @@ export default function AGGridRequirements() {
           functionality.
         </li>
       </ul>
-      <h3>I couldn't put the data, for now.</h3>
       <Search />
+      <h3>I couldn't put the data, for now.</h3>
+      <AGGrid />
+
+      <h3>Checkbox</h3>
+      <a
+        href="https://www.ag-grid.com/react-data-grid/row-selection/#checkbox-selection"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Checkbox Page
+      </a>
+      <ul>
+        <li>
+          To activate checkbox selection set " checkboxSelection" and
+          "headerCheckboxSelection"
+        </li>
+      </ul>
+      <AGGridCheckbox />
     </>
   );
 }

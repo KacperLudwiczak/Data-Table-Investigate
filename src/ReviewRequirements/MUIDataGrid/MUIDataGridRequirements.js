@@ -1,4 +1,5 @@
 import QuickFilteringGrid from "./SearchFilter";
+import QuickFilteringGridWithCheckbox from "./Checkbox";
 
 export default function MUIDataGridRequirements() {
   return (
@@ -9,6 +10,7 @@ export default function MUIDataGridRequirements() {
       <a
         href="https://mui.com/x/react-data-grid/filtering/quick-filter/"
         target="_blank"
+        rel="noreferrer"
       >
         Search Page
       </a>
@@ -76,6 +78,19 @@ export default function MUIDataGridRequirements() {
         </li>
       </ul>
       <QuickFilteringGrid />
+
+      <h3>Checkbox</h3>
+      <a
+        href="https://mui.com/x/react-data-grid/row-selection/#checkbox-selection"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Checkbox Page
+      </a>
+      <ul>
+        <li>To activate checkbox selection set "checkboxSelection".</li>
+      </ul>
+      <QuickFilteringGridWithCheckbox />
     </>
   );
 }

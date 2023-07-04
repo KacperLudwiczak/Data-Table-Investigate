@@ -5,7 +5,7 @@ import { useDemoData } from "@mui/x-data-grid-generator";
 
 const VISIBLE_FIELDS = ["name", "rating", "country", "dateCreated", "isAdmin"];
 
-export default function QuickFilteringGrid() {
+export default function QuickFilteringGridWithCheckbox() {
   const { data } = useDemoData({
     dataSet: "Employee",
     visibleFields: VISIBLE_FIELDS,
@@ -23,6 +23,7 @@ export default function QuickFilteringGrid() {
     <Box sx={{ height: 400, width: 1 }}>
       <DataGrid
         {...data}
+        checkboxSelection
         disableColumnFilter
         disableColumnSelector
         disableDensitySelector
