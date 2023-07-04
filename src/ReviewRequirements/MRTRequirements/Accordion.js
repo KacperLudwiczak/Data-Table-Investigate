@@ -1,64 +1,67 @@
 import React, { useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 
-const SearchWithCheckbox = () => {
+const Accordion = () => {
   const data = [
     {
-      name: {
-        firstName: "John",
-        lastName: "Doe",
-      },
+      firstName: "Dylan",
+      lastName: "Murray",
       address: "261 Erdman Ford",
       city: "East Daphne",
       state: "Kentucky",
+      subRows: [
+        {
+          firstName: "Ervin",
+          lastName: "Reinger",
+          address: "566 Brakus Inlet",
+          city: "South Linda",
+          state: "West Virginia",
+          subRows: [
+            {
+              firstName: "Jordane",
+              lastName: "Homenick",
+              address: "1234 Brakus Inlet",
+              city: "South Linda",
+              state: "West Virginia",
+            },
+          ],
+        },
+        {
+          firstName: "Brittany",
+          lastName: "McCullough",
+          address: "722 Emie Stream",
+          city: "Lincoln",
+          state: "Nebraska",
+        },
+      ],
     },
     {
-      name: {
-        firstName: "Jane",
-        lastName: "Doe",
-      },
+      firstName: "Raquel",
+      lastName: "Kohler",
       address: "769 Dominic Grove",
       city: "Columbus",
       state: "Ohio",
-    },
-    {
-      name: {
-        firstName: "Joe",
-        lastName: "Doe",
-      },
-      address: "566 Brakus Inlet",
-      city: "South Linda",
-      state: "West Virginia",
-    },
-    {
-      name: {
-        firstName: "Kevin",
-        lastName: "Vandy",
-      },
-      address: "722 Emie Stream",
-      city: "Lincoln",
-      state: "Nebraska",
-    },
-    {
-      name: {
-        firstName: "Joshua",
-        lastName: "Rolluffs",
-      },
-      address: "32188 Larkin Turnpike",
-      city: "Charleston",
-      state: "South Carolina",
+      subRows: [
+        {
+          firstName: "Branson",
+          lastName: "Frami",
+          address: "32188 Larkin Turnpike",
+          city: "Charleston",
+          state: "South Carolina",
+        },
+      ],
     },
   ];
 
   const columns = useMemo(
     () => [
       {
-        accessorKey: "name.firstName", //access nested data with dot notation
+        accessorKey: "firstName", //access nested data with dot notation
         header: "First Name",
         size: 150,
       },
       {
-        accessorKey: "name.lastName",
+        accessorKey: "lastName",
         header: "Last Name",
         size: 150,
       },
@@ -88,6 +91,8 @@ const SearchWithCheckbox = () => {
       enableRowSelection
       columns={columns}
       data={data}
+      enableExpanding
+      enableExpandAll
       enableGlobalFilterModes
       // initialState={{
       //   showGlobalFilter: true,
@@ -102,4 +107,4 @@ const SearchWithCheckbox = () => {
   );
 };
 
-export default SearchWithCheckbox;
+export default Accordion;

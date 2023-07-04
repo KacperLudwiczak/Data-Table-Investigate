@@ -1,5 +1,6 @@
 import Search from "./SearchFilter";
 import SearchWithCheckbox from "./Checkbox";
+import Accordion from "./Accordion";
 
 export default function MRTRequirements() {
   return (
@@ -98,6 +99,34 @@ export default function MRTRequirements() {
         </li>
       </ul>
       <SearchWithCheckbox />
+
+      <h3>Accordion</h3>
+      <div>
+        <a
+          href="https://www.material-react-table.com/docs/guides/expanding-sub-rows#relevant-state-options"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Accordion Page 1
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://www.material-react-table.com/docs/guides/detail-panel"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Accordion Page 2
+        </a>
+      </div>
+
+      <ul>
+        <li>
+          I change data to groups and active by "enableExpanding" and
+          "enableExpandAll".
+        </li>
+      </ul>
+      <Accordion />
     </>
   );
 }

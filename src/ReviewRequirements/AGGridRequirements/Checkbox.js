@@ -39,11 +39,11 @@ export default function AGGridCheckbox() {
   };
 
   //function to allow selection to row
-  const isRowSelectable = (node) => {
-    return node.data
-      ? node.data.id % 2 === 0 || node.data.email.includes(".org")
-      : false;
-  };
+  // const isRowSelectable = (node) => {
+  //   return node.data
+  //     ? node.data.id % 2 === 0 || node.data.email.includes(".org")
+  //     : false;
+  // };
   return (
     <>
       <div className="ag-theme-alpine" style={{ height: "400px" }}>
@@ -54,7 +54,7 @@ export default function AGGridCheckbox() {
           rowSelection={rowSelectionType}
           onSelectionChanged={onSelectionChanged}
           rowMultiSelectWithClick={true}
-          isRowSelectable={isRowSelectable}
+          // isRowSelectable={isRowSelectable}
         ></AgGridReact>
       </div>
     </>

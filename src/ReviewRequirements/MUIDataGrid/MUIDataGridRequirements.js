@@ -1,5 +1,6 @@
 import QuickFilteringGrid from "./SearchFilter";
 import QuickFilteringGridWithCheckbox from "./Checkbox";
+import BasicAccordion from "./Accordion";
 
 export default function MUIDataGridRequirements() {
   return (
@@ -91,6 +92,22 @@ export default function MUIDataGridRequirements() {
         <li>To activate checkbox selection set "checkboxSelection".</li>
       </ul>
       <QuickFilteringGridWithCheckbox />
+
+      <h3>Accordion</h3>
+      <a
+        href="https://mui.com/material-ui/react-accordion/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Accordion Page
+      </a>
+      <ul>
+        <li>
+          The Accordion in DataGrid is in DataGrid Premium, in Material UI is a
+          basic accordion.
+        </li>
+      </ul>
+      <BasicAccordion />
     </>
   );
 }

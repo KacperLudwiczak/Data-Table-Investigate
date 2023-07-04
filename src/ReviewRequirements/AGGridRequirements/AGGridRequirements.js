@@ -84,6 +84,18 @@ export default function AGGridRequirements() {
         </li>
       </ul>
       <AGGridCheckbox />
+
+      <h3>Accordion</h3>
+      <a
+        href="https://www.ag-grid.com/react-data-grid/grouping/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Row Grouping Page
+      </a>
+      <ul>
+        <li>The Row Grouping in AG Grid is in Enterprise version.</li>
+      </ul>
     </>
   );
 }

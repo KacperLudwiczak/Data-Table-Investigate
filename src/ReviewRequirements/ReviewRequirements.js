@@ -64,6 +64,23 @@ export default function ReviewRequirements() {
         </li>
       </ul>
 
+      <h2>Accordion:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>
+          The Accordion in DataGrid are in DataGrid Premium, in Material UI is a
+          basic accordion.
+        </li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Active by "enableExpanding" and "enableExpandAll".</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>The Row Grouping in AG Grid is in Enterprise version.</li>
+      </ul>
+
       <MUIDataGridRequirements />
       <MRTRequirements />
       <AGGridRequirements />
