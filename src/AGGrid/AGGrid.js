@@ -60,8 +60,9 @@ function AGGrid() {
             <li>Bundle size 212.1 kB, Minified + Gzipped</li>
           </ul>
         </li>
+        <li>Good youtube videos explain code.</li>
       </ul>
-      <AGGridTable/>
+      <AGGridTable />
     </div>
   );
 }

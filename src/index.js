@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import DataGrid from "./DataGrid/DataGrid";
 import MaterialReactTable from "./MaterialReactTable/MaterialReactTable";
 import AGGrid from "./AGGrid/AGGrid";
+import ReviewRequirements from "./ReviewRequirements/ReviewRequirements";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,10 @@ root.render(
 
         <div style={{ margin: "30px" }}>
           <AGGrid />
+        </div>
+
+        <div style={{ margin: "30px" }}>
+          <ReviewRequirements />
         </div>
       </div>
     </BrowserRouter>
