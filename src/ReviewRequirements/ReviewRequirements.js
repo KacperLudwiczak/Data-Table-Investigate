@@ -1,6 +1,7 @@
 import MUIDataGridRequirements from "./MUIDataGrid/MUIDataGridRequirements";
 import AGGridRequirements from "./AGGridRequirements/AGGridRequirements";
 import MRTRequirements from "./MRTRequirements/MRTRequirements";
+import BadgeMax from "./Badge";
 
 export default function ReviewRequirements() {
   return (
@@ -92,7 +93,7 @@ export default function ReviewRequirements() {
       </ul>
       <h3>AG Grid:</h3>
       <ul>
-        <li>Available, but with "Hide Medals"</li>
+        <li>Available</li>
       </ul>
 
       <h2>Select All:</h2>
@@ -107,6 +108,61 @@ export default function ReviewRequirements() {
       <h3>AG Grid:</h3>
       <ul>
         <li>Available</li>
+      </ul>
+
+      <h2>Sort per column:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Expand Table:</h2>
+
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Highlight on Mouse Over:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Pagination:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h3>Badges and Icons:</h3>
+      <BadgeMax />
+      <ul>
+        <li>Data Grid and Material React Table uses Material Icons.</li>
       </ul>
 
       <MUIDataGridRequirements />

@@ -48,6 +48,7 @@ export default function AGGridCheckbox() {
     <>
       <div className="ag-theme-alpine" style={{ height: "400px" }}>
         <AgGridReact
+          pagination
           columnDefs={columnDefs}
           defaultColDef={defaultColDef}
           onGridReady={onGridReady}
