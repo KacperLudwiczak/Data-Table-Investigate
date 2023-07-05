@@ -81,6 +81,20 @@ export default function ReviewRequirements() {
         <li>The Row Grouping in AG Grid is in Enterprise version.</li>
       </ul>
 
+      <h2>Hide Column:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available, but with "Hide Medals"</li>
+      </ul>
+
       <MUIDataGridRequirements />
       <MRTRequirements />
       <AGGridRequirements />

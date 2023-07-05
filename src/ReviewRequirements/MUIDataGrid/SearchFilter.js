@@ -23,9 +23,9 @@ export default function QuickFilteringGrid() {
     <Box sx={{ height: 400, width: 1 }}>
       <DataGrid
         {...data}
-        disableColumnFilter
-        disableColumnSelector
-        disableDensitySelector
+        // disableColumnFilter
+        // disableColumnSelector
+        // disableDensitySelector
         columns={columns}
         slots={{ toolbar: GridToolbar }}
         slotProps={{
