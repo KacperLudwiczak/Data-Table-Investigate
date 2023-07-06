@@ -214,7 +214,21 @@ export default function ReviewRequirements() {
         <li>Available</li>
       </ul>
 
-      <h2>Dropdown:</h2>
+      <h2>Drag and Drop:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available in Pro Plan</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Dropdowns:</h2>
       <h3>MUI DataGrid:</h3>
       <ul>
         <li>Available in Pro Plan</li>
