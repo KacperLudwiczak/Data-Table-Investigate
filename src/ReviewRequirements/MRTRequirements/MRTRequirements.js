@@ -81,6 +81,10 @@ export default function MRTRequirements() {
           muiSearchTextFieldProps prop, allowing customization of placeholder
           text, styles, and other text field props.
         </li>
+        <li>
+          With "enableStickyHeader" we can stick header to top and with that
+          scroll rows
+        </li>
       </ul>
       <Search />
 

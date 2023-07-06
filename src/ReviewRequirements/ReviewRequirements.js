@@ -228,6 +228,20 @@ export default function ReviewRequirements() {
         <li>Available</li>
       </ul>
 
+      <h2>Scrollable table:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
       <h2>Top Hierarchy titles:</h2>
       <h3>MUI DataGrid:</h3>
       <ul>
