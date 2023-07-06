@@ -1,6 +1,7 @@
 import QuickFilteringGrid from "./SearchFilter";
 import QuickFilteringGridWithCheckbox from "./Checkbox";
 import BasicAccordion from "./Accordion";
+import BasicGroupingDemo from "./MultiColumnTitle";
 
 export default function MUIDataGridRequirements() {
   return (
@@ -108,6 +109,16 @@ export default function MUIDataGridRequirements() {
         </li>
       </ul>
       <BasicAccordion />
+
+      <h3>Multi Column Title</h3>
+      <a
+        href="https://mui.com/x/react-data-grid/column-groups/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Column Groups Page
+      </a>
+      <BasicGroupingDemo />
     </>
   );
 }

@@ -124,9 +124,43 @@ export default function ReviewRequirements() {
         <li>Available</li>
       </ul>
 
+      <h2>Rows per page:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Wrap Text:</h2>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
       <h2>Expand Table:</h2>
 
       <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Rows and Column pinning:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available in Pro Plan</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
       <ul>
         <li>Available</li>
       </ul>
@@ -146,6 +180,55 @@ export default function ReviewRequirements() {
       </ul>
 
       <h2>Pagination:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Edit by clicking directly :</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Edit by a special button</li>
+        <a
+          href="https://www.material-react-table.com/docs/guides/editing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Editing Page
+        </a>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Dropdown:</h2>
+      <h3>MUI DataGrid:</h3>
+      <ul>
+        <li>Available in Pro Plan</li>
+      </ul>
+      <h3>MRT:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+      <h3>AG Grid:</h3>
+      <ul>
+        <li>Available</li>
+      </ul>
+
+      <h2>Top Hierarchy titles:</h2>
       <h3>MUI DataGrid:</h3>
       <ul>
         <li>Available</li>

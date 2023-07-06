@@ -1,6 +1,7 @@
 import Search from "./SearchFilter";
 import AGGrid from "./AGGridTable";
 import AGGridCheckbox from "./Checkbox";
+import ColumnGroup from "./ColumnGroups";
 
 export default function AGGridRequirements() {
   return (
@@ -96,6 +97,16 @@ export default function AGGridRequirements() {
       <ul>
         <li>The Row Grouping in AG Grid is in Enterprise version.</li>
       </ul>
+
+      <h3>Column Groups</h3>
+      <a
+        href="https://www.ag-grid.com/react-data-grid/column-updating-definitions/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Row Grouping Page
+      </a>
+      <ColumnGroup />
     </>
   );
 }

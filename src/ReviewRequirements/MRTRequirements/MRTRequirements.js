@@ -97,6 +97,9 @@ export default function MRTRequirements() {
           To activate checkbox selection set "muiSelectCheckboxProps" and
           "enableRowSelection".
         </li>
+        <li>
+          To activate pinning selection set "enablePinning" and "initialState".
+        </li>
       </ul>
       <SearchWithCheckbox />
 

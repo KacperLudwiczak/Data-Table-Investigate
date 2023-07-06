@@ -89,6 +89,10 @@ const SearchWithCheckbox = () => {
       columns={columns}
       data={data}
       enableGlobalFilterModes
+      enablePinning
+      initialState={{
+        columnPinning: { left: ["name.firstName"], right: ["city"] },
+      }}
       // initialState={{
       //   showGlobalFilter: true,
       // }}
